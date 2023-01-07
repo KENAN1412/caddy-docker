@@ -29,4 +29,8 @@ RUN set -eux; \
 
 COPY caddy-builder.sh /usr/bin/caddy-builder
 
+EXPOSE 80
+EXPOSE 443
+EXPOSE 443/udp
+
 WORKDIR /usr/bin
