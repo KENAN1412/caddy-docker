@@ -14,4 +14,4 @@ Instead, you should use the xcaddy command:
 
 # version is inferred from $CADDY_VERSION (set in the Dockerfile)
 # output will be placed in the working dir (/usr/bin as set in the Dockerfile)
-xcaddy build $args
+xcaddy build --with github.com/caddyserver/forwardproxy@caddy2=github.com/klzgrad/forwardproxy@naive
